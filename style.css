@@ -1,0 +1,30 @@
+h1 {
+    text-align: center !important;
+    color: rgba(4, 0, 255, 0.836);
+    font-family: cursive;
+    font-style: inherit;
+    font-size: 45px;
+    margin-left: 27%;
+}
+.header {
+    background-color: burlywood;
+    display : flex;
+    justify-content: space-between;
+    border: solid 2px brown;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+body {
+    background-color: rgb(169, 255, 208);
+}
+.item img{
+    border: solid 2px brown;
+    border-radius: 50px;
+}
